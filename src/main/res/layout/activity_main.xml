@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+ tools:context=".MainActivity">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="443dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@android:dimen/app_icon_size"
+                android:background="@color/colorPrimaryDark"
+                android:text="OTP VERIFICATION "
+                android:textSize="40dp" />
+
+            <EditText
+                android:id="@+id/mobile"
+                android:layout_width="324dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:hint="ENTER YOU MOBILE NUMBER"
+                android:inputType="text"
+                android:textColorHint="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginBottom="200dp"
+
+
+                android:text="Continue" />
+        </LinearLayout>
+    </RelativeLayout>
